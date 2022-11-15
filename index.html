@@ -3,14 +3,11 @@
 
     </head>
     <body>
-        <label>What word do you wish to search for</label><br>
+        <label>Search word</label><br>
         <input type = "text" id = "textField"><br>
-        <button type = "button" id = "submitButton" onclick="searchWord()"> Submit</button>
-        <div>
-            <div id = "messageOnScreen_WordValidation"></div>
-            <div id = "messageOnScreen_Question"></div>
-            <div id = "buttonsYesNo"></div>
-        </div>
+        <button type = "button" id = "submitButtonSearchWord" onclick="searchWord()"> Search Word</button>
+        <button type = "button" id = "submitButtonAddWord" onclick="addWord()"> Add Word</button>
+        <div id = "messageOnScreen_WordValidation"></div>
         <script src = "script.js"></script>
     </body>
 </html>
